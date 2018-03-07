@@ -1,0 +1,20 @@
+:root {
+
+	--yellow: #ffc600;	
+
+}
+
+.container {
+	
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 20px;
+
+}
+
+.item {
+	
+	background: var(--yellow);	
+
+}
