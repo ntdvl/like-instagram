@@ -9,12 +9,21 @@
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	grid-template-columns: 300px 300px 300px;
+	/*grid-template-rows: 100px 100px;*/
 	grid-gap: 20px;
 
 }
 
 .item {
 	
-	background: var(--yellow);	
+	background: var(--yellow);
+	cursor: pointer;
+
+}
+
+.item img {
+	
+	width: 100%;
 
 }
