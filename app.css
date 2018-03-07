@@ -19,11 +19,19 @@
 	
 	background: var(--yellow);
 	cursor: pointer;
+	position: relative;
 
 }
 
 .item img {
 	
 	width: 100%;
+}
+
+.item img + i {
+	
+	/*position: absolute;
+	right: 0;
+	color: transparent;*/
 
 }
